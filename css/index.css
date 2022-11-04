@@ -21,7 +21,7 @@ body{
 }
 
 
-/*////////////////NAV//////////////////*/
+/*////////////////////////////////////////NAV////////////////////////////////////*/
 header{
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ nav ul li a:hover{
     padding-bottom: 12px;
 }
 
-/*////////////////HERO////////////////*/
+/*////////////////////////////////////////HERO//////////////////////////////////*/
 .hero{
     display: flex;
     height: 850px;
@@ -85,7 +85,7 @@ nav ul li a:hover{
     font-size: var(--font-size-phrase);
     color: white;
 }
-/*/////////////// REFUERZO //////////////*/
+/*/////////////////////////////////// REFUERZO ///////////////////////////////*/
 .frase_refuerzo{
     font-size: var(--font-size-phrase);
     font-family: var(--font-family-button);
@@ -93,7 +93,7 @@ nav ul li a:hover{
     margin-top: 30px;
 }
 
-/*///////////////ABOUT US//////////////*/
+/*/////////////////////////////////////ABOUT US////////////////////////////////*/
 #about_us{
     display: flex; 
     margin: 40px auto; 
@@ -111,7 +111,7 @@ nav ul li a:hover{
     margin: 0 20px;
 }
 
-/*////////////BENEFICIOS///////////////*/
+/*////////////////////////////////////BENEFICIOS/////////////////////////////////*/
 .beneficios{
     width: 80%;
     display: flex;
@@ -124,4 +124,80 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+}
+
+/*////////////////////////////////// FOOTER //////////////////////////////////*/
+
+.footer_1{
+    display: flex;
+    border-top: 1px solid grey;
+    justify-content: space-around;
+    gap: 50px;
+    height: 280px;
+    width: 100%;
+    align-items: center;
+    background-color: darkslategrey;
+    padding: 0 100px;
+}
+
+
+.footer_hijo{
+    gap: 25px;
+    height: 180px;
+    color: white;
+    font-size: var(--font-size-button);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 30px;
+}
+footer h6{
+    font-size: 15px;
+    font-family: var(--font-family-button);
+}
+footer p{
+    font-size: 17px;
+}
+
+/*  ICON FOOTER  */
+.icon_network{
+    background-color: darkslategrey;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    position: absolute;
+    margin: -40px auto 0;
+}
+.icon_network img{
+    height: 18px;
+}
+.icon_social1:hover{
+    height: 20px;
+}
+.icon_social2:hover{
+    height: 20px;
+}
+.icon_social3:hover{
+    height: 20px;
+}
+.icon_social4:hover{
+    height: 20px;
+}
+/*  FIN ICON FOOTER  */
+
+.footer_2{
+    text-align: center;
+    background-color: rgb(28, 34, 31);
+    color: white;
+    height: 50px;
+    
+}
+.footer_2 p{
+    padding-top: 17px;
+}
+.footer_2 p a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family-button);
+    font-size: var(--font-size-button);
+    font-weight: 600;
 }

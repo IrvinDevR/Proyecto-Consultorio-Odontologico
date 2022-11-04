@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-font: #113f1a;
+    --color-buttom: #0c7d8f;
+    /* --color-nav: #04f3a5; */
+    --color-nav: white;
+    --background-color: #fffba6;
+    --color-random:#d4ff76;
+    --font-family-button: "Roboto", sans-serif;
+    --font-size-button: 16px;
+    --font-size-phrase: 40px;
+}
+
+body{
+    color: #113f1a
+}
+
+
+/*////////////////NAV//////////////////*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-nav);
+    border-bottom: 1px solid grey;
+    font-family: var(--font-family-button);
+    font-size: var(--font-size-button);
+    position: sticky;  /* El valor "sticky" para la propiedad position siempre debe ir acompañada de un valor para el top, right, left t/o bottom */
+    top: 0;
+    width: 100%;
+    margin-top: 2px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    background-color: var(--color-buttom);
+    padding: 7px 15px;
+    margin: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#logo{
+    width: 180px;
+    margin-bottom: -10px;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid var(--color-buttom);
+    padding-bottom: 12px;
+}
+
+/*////////////////HERO////////////////*/
